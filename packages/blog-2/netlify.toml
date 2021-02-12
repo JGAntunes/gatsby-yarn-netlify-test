@@ -1,20 +1,12 @@
 # example netlify.toml
 [build]
+  ignore = "git diff --quiet HEAD^ HEAD packages/blog-2"
   command = "gatsby build"
   functions = "functions"
   publish = "public"
 
 [build.environment]
   NETLIFY_BUILD_DEBUG = "true"
-
-[context.monorepo]
-  base = "packages/blog-1"
-
-[context.monorepo.environment]
-  NETLIFY_USE_YARN = "true"
-
-[context.lerna-monorepo]
-  base = "packages/blog-1"
 
   ## Uncomment to use this redirect for Single Page Applications like create-react-app.
   ## Not needed for static site generators.
