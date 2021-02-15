@@ -5,7 +5,7 @@
   ],
   "name": "gatsby-monorepo",
   "devDependencies": {
+    "lerna": "^3.22.1"
   },
-  "scripts": {
-  }
+  "scripts": {}
 }
