@@ -8,7 +8,7 @@
 [build.environment]
   NETLIFY_BUILD_DEBUG = "true"
   NETLIFY_USE_YARN = "true"
-  NETLIFY_YARN_WORKSPACES = "true"
+  # NETLIFY_YARN_WORKSPACES = "true"
 
   ## Uncomment to use this redirect for Single Page Applications like create-react-app.
   ## Not needed for static site generators.
