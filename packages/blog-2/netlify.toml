@@ -1,7 +1,9 @@
 # example netlify.toml
 [build]
   ignore = "git diff --quiet HEAD^ HEAD ."
-  command = "gatsby build"
+  # fail the build on purpose
+  # command = "gatsby build"
+  command = "exit 1"
   functions = "functions"
   publish = "public"
 
