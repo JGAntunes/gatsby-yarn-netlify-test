@@ -3,7 +3,7 @@
   ignore = "git diff --quiet HEAD^ HEAD ."
   # fail the build on purpose
   # command = "gatsby build"
-  command = "exit 1"
+  # command = "exit 1"
   functions = "functions"
   publish = "public"
 
