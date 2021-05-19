@@ -4,7 +4,7 @@ date: "2015-05-01T22:12:03.284Z"
 description: "Hello World"
 ---
 
-Give me notications!
+Give me notications 2!
 
 This is my first post on my new fake blog! How exciting!
 
