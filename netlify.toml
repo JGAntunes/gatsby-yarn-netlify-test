@@ -13,6 +13,19 @@
 [context.monorepo.environment]
   NETLIFY_USE_YARN = "true"
 
+[[redirects]]
+  # Telemetry link
+  from = "/telemetry/track"
+  to = "https://test-ntl-functions.netlify.app/.netlify/functions/track"
+  status = 200
+  force = false
+[[redirects]]
+   # Telemetry link
+  from = "/telemetry/identify"
+  to = "https://test-ntl-functions.netlify.app/.netlify/functions/identify"
+  status = 200
+  force = false
+
   ## Uncomment to use this redirect for Single Page Applications like create-react-app.
   ## Not needed for static site generators.
   #[[redirects]]
