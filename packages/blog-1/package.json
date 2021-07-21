@@ -8,6 +8,7 @@
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
   "dependencies": {
+    "@netlify/build": "^16.1.0",
     "@netlify/framework-info": "^3.1.0",
     "gatsby": "^2.32.3",
     "gatsby-image": "^2.11.0",
