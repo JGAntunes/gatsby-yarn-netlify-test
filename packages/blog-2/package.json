@@ -47,6 +47,7 @@
   },
   "scripts": {
     "build": "gatsby build",
+    "build:subfolder": "gatsby build --prefix-paths && mv public my-blog && mkdir public && mv my-blog public/ && cp public/my-blog/404.html public && cp -R public/my-blog/404 public/404",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",

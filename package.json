@@ -1,8 +1,12 @@
 {
   "private": true,
   "name": "gatsby-monorepo",
-  "devDependencies": {
-    "lerna": "^3.22.1"
-  },
-  "scripts": {}
+  "devDependencies": {},
+  "workspaces": [
+    "./packages/*"
+  ],
+  "scripts": {},
+  "dependencies": {
+    "gatsby": "^4.14.1"
+  }
 }
