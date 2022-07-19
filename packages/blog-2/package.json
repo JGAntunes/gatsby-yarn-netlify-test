@@ -30,7 +30,8 @@
     "react-dom": "^16.12.0",
     "react-helmet": "^5.2.1",
     "typeface-merriweather": "0.0.72",
-    "typeface-montserrat": "0.0.75"
+    "typeface-montserrat": "0.0.75",
+    "gatsby-starter-blog-1": "^0.1.0"
   },
   "devDependencies": {
     "prettier": "2.2.1"
